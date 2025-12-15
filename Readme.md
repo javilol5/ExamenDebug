@@ -64,8 +64,12 @@ Step Into: entra dentro de la función calcular_siguiente y permite depurar su e
 -  Cambia la llamada a la función para que el número de elementos sea mayor: `print(funcion_bucle(1000))`.
 -  Establece un **Breakpoint Condicional** para que la ejecución se detenga solo cuando `siguiente_numero` sea **mayor que 20000**.
 
+![ImagenDebug4](media/Debug4.png)
+
 **Pregunta**
 
 1. Cuando el *Breakpoint Condicional* se activa por **primera vez** (la primera vez que `siguiente_numero` es mayor que 20000), ¿qué longitud tiene `serie`?
+
+Respuesta = ```23```
 
 ---

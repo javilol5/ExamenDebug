@@ -15,4 +15,4 @@ def funcion_bucle(n):
         return serie
 
 # Ejemplo de uso:
-print(funcion_bucle(10))
+print(funcion_bucle(1000))
