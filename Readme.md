@@ -29,12 +29,33 @@ Respuesta = `n = 10`
 -  Inicia el modo *Debug* y avanza hasta que la ejecución se detenga en la línea `siguiente_numero = calcular_siguiente(serie)`.
 -  Utiliza la opción de depuración adecuada para **entrar dentro** de la función `calcular_siguiente`.
 
+![ImagenDebug2](media/Debug2.png)
+![ImagenDebug3](media/Debug3.png)
+
 **Preguntas**
 
 1. Justo cuando el debugger se detiene dentro de la función `calcular_siguiente` por **primera vez**, ¿cuál es el valor que tiene la variable local `aux` *después* de que se ejecute la línea `aux = serie[-1] + serie[-2]`?
 **(Indica el valor numérico exacto de la variable `aux` en ese momento y el nombre de la herramienta de *debugging* que utilizaste para entrar en la función).**
+
+Respuesta =
+```
+Valor de aux: 1
+Herramienta de debugging utilizada: Step Into
+```
+
+
 2. Si estuvieras dentro de la función `calcular_siguiente` y quisieras salir rápidamente sin ejecutar el resto de las líneas, volviendo al punto de llamada en `funcion_bucle`, ¿qué función del debugger deberías usar?
+
+Respuesta = ```Step Out```
+
 3. ¿Qué diferencia fundamental existe entre usar *Step Over* y *Step Into* en la línea `siguiente_numero = calcular_siguiente(serie)`?
+
+Respuesta =
+```
+Step Over: ejecuta la función completa sin entrar en su código, avanzando a la siguiente línea del programa actual.
+
+Step Into: entra dentro de la función calcular_siguiente y permite depurar su ejecución línea a línea.
+```
 
 ---
 
